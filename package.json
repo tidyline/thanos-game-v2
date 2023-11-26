@@ -4,9 +4,9 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "node makefile.js && parcel",
+    "start": "parcel",
     "build": "parcel build",
-    "postbuild": "cp -r img/* dist/"
+    "postbuild": "node makefile.js && cp -r img/* dist/"
   },
   "author": "",
   "license": "ISC",
